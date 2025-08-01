@@ -58,10 +58,9 @@ List the technologies, libraries, and frameworks used in your project.
 
 ## Authors <!--- do not change this line -->
 
-(UPDATE IN README.md)
-List the names and contact information (e.g., email, GitHub profiles) of the authors or contributors.
-
-*EXAMPLE:*
 *This project was completed in collaboration with:*
-- *John Doe ([john.doe@example.com](mailto:john.doe@example.com))*
-- *Jane Smith ([jane.smith@example.com](mailto:jane.smith@example.com))*
+- [@DLiu7](https://github.com/DLiu7)
+- [@ankushachwani](https://github.com/ankushachwani)
+- [@NER2160349](https://github.com/NER2160349)
+- [@Shay-7278](https://github.com/Shay-7278)
+- [@Mahir-MShahriar](https://github.com/Mahir-MShahriar)
