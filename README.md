@@ -9,11 +9,9 @@ Briefly describe the purpose/result(s) of your project, the skills you applied, 
 
 ## Problem Statement <!--- do not change this line -->
 
-(UPDATE IN README.md)
 Describe the motivation for this project, why it is relevant, and what its impacts are.
 
-*EXAMPLE:*
-*Given the substantial daily output of responses, the identification and mitigation of ChatGPT's biases become critical, safeguarding both the multitude of users and the far-reaching consequences they may influence.*
+Rapid and accurate human detection in aerial images is crucial for search and rescue (SAR) operations, where every minute can be the difference between life and death. Traditional manual analysis of drone footage is time-consuming, error-prone, and creates dangerous delays during emergency situations. The lack of automated detection systems forces SAR teams to rely on labor-intensive manual processes that can delay life-saving interventions and waste critical resources during search operations.
 
 ## Key Results <!--- do not change this line -->
 
@@ -39,11 +37,7 @@ Enumerate the main results of this project in a list and describe them.
 
 ## Data Sources <!--- do not change this line -->
 
-(UPDATE IN README.md)
-Include any relevant data sources that were used in your project.
-
-*EXAMPLE:*
-*Kaggle Datasets: [Link to Kaggle Dataset](https://www.kaggle.com/datasets)*
+*Kaggle Dataset: [SARD - Search And Rescue Dataset](https://www.kaggle.com/datasets/nikolasgegenava/sard-search-and-rescue)*
 
 ## Technologies Used <!--- do not change this line -->
 
