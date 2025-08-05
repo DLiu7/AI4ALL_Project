@@ -2,5 +2,4 @@ streamlit
 opencv-python-headless
 pillow
 pandas
-ultralytics
-
+ultralytics==8.3.174
