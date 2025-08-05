@@ -6,7 +6,7 @@ st.set_page_config(page_title="RescueVision", layout="wide")
 # Title
 st.title("🚁 RescueVision")
 st.markdown("""
-Developed an automated human detection system for search and rescue drone imagery using YOLOv11 technology. Achieved **85% mean Average Precision (mAP)** through advanced machine learning techniques and comprehensive bias mitigation strategies.
+Developed an automated human detection system for search and rescue drone imagery using YOLOv11 technology. Looking to achieve **85% mean Average Precision (mAP)** through advanced machine learning techniques and comprehensive bias mitigation strategies.
 
 _Developed within the AI4ALL Ignite accelerator program._
 """)
@@ -21,31 +21,32 @@ Rapid and accurate human detection in aerial images is crucial for search and re
 # Key Results
 st.header("📊 Key Results")
 st.markdown("""
-- Achieved **85% mAP** on wilderness drone imagery
+- Achieved **94% mAP** on wilderness drone imagery
 - Processed **4,000+ training images** from the SARD dataset
 - Real-time detection capability for emergency response scenarios
 - Developed a comprehensive evaluation framework:
   - Precision, Recall, F1-Score
-  - False Positive Rate
 """)
 
 # Metrics Section #Change here after we do the validation
 st.subheader("Model Metrics")
-map = 0.85
-precision = 0.82
-recall = 0.80
-f1 = 0.81
+map = 0.94
+map5095 = 0.644
+precision = 0.94607
+recall = 0.89925
+f1 = 0.92207
 
-col1, col2, col3, col4 = st.columns(4)
-col1.metric("mAP", f"{map*100:.1f}%")
-col2.metric("Precision", f"{precision:.2f}")
-col3.metric("Recall", f"{recall:.2f}")
-col4.metric("F1-Score", f"{f1:.2f}")
+col1, col2, col3, col4, col5 = st.columns(5)
+col1.metric("mAP50", f"{map*100:.1f}%")
+col2.metric("mAP50-95", f"{map5095:.2f}")
+col3.metric("Precision", f"{precision:.2f}")
+col4.metric("Recall", f"{recall:.2f}")
+col5.metric("F1-Score", f"{f1:.2f}")
 
 # Bar chart for metrics
 import pandas as pd
 metrics_data = pd.DataFrame({
-    'Metric': ['mAP', 'Precision', 'Recall', 'F1-Score'],
+    'Metric': ['mAP50', 'Precision', 'Recall', 'F1-Score'],
     'Value': [map, precision, recall, f1]
 })
 st.bar_chart(metrics_data.set_index('Metric'))
